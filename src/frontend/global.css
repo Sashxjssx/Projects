@@ -5,12 +5,14 @@
 }
 
 :root {
-    --color-primary: #4a90e2;
-    --color-secondary: #50e3c2;
-    --color-tertiary: #9013fe;
-    --color-background: #f5f5f5;
-    --color-text: #333333;
-    --color-border: #e0e0e0;
+    --background-color: #161616;
+    --standard-font: Helvetica;
+    --color-primary: #3498db;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--standard-font);
 }
 
 h1 {
