@@ -8,6 +8,7 @@
     --background-color: #161616;
     --standard-font: Helvetica;
     --color-primary: #3498db;
+    --color-secondary: #f6f6f6;
 }
 
 body {
@@ -15,10 +16,53 @@ body {
     font-family: var(--standard-font);
 }
 
+nav {
+    background-color: var(--background-color);
+    color: var(--color-secondary);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+
+    & ul {
+        text-decoration: none;
+    }
+
+    & a {
+        color: var(--color-primary);
+        text-decoration: none;
+        font-size: 18px;
+        margin: 0 10px;
+    }
+}
+
 h1 {
-    font-size: 2rem;
+    margin-top: 10px;
+    font-size: 32px;
     font-family: Helvetica;
     color: var(--color-primary);
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: var(--color-secondary);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-family: Helvetica;
+    color: var(--color-secondary);
 }
 
 img {

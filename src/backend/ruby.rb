@@ -11,7 +11,6 @@ class Calculadora
     def Calculadora.dividir(n,m)
      n/m 
     end
-    end
     
     print "Primer valor:"
     val1 = gets.chomp
