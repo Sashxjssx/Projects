@@ -1,1 +1,15 @@
-const add = (a, b) => a + b;
+const abc = (a, b) => a + b;
+const axz = (a, b) => a + b;
+const fdg = (a, b) => a + b;
+const ujk = (a, b) => a + b;
+const hrg = (a, b) => a + b;
+const nbm = (a, b) => a + b;
+const tng = (a, b) => a + b;
+const jht = (a, b) => a + b;
+const wjd = (a, b) => a + b;
+const bfe = (a, b) => a + b;
+const uko = (a, b) => a + b;
+const mjn = (a, b) => a + b;
+const pol = (a, b) => a + b;
+const vbn = (a, b) => a + b;
+const gbv = (a, b) => a + b;
